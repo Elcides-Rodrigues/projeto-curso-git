@@ -1,0 +1,74 @@
+E@Rodagro MINGW64 ~
+$ git config --global user.name "Elcides Rodrigues"
+
+E@Rodagro MINGW64 ~
+$ git config --global user.email "ers.hidro@gmail.com"
+
+E@Rodagro MINGW64 ~
+$ git config user.name 
+Elcides Rodrigues
+
+E@Rodagro MINGW64 ~
+$ git config user.email
+ers.hidro@gmail.com
+
+E@Rodagro MINGW64 ~
+$ clear // limpa toda a tela 
+
+E@Rodagro MINGW64 ~
+$ git config core.editor 
+"C:\Users\E\AppData\Local\Programs\Microsoft VS Code\Code.exe" --wait
+
+E@Rodagro MINGW64 ~
+c git config --global core.editor "" // para modificar o editor de texto ex: "Vs Code" dentro das "" inserir o endereço do seu editor de texto. 
+
+E@Rodagro MINGW64 ~
+$ code // vai abri o editor de texto, que no meu caso é o Vs Code.
+
+E@Rodagro MINGW64 ~
+$ pwd // exibe onde vc está, no caso dentro da unidade C/usuário/E
+/c/Users/E
+
+E@Rodagro MINGW64 ~
+$ cd /c // muda o diretório para a unidade C. 
+
+E@Rodagro MINGW64 /c
+$ pwd
+/c
+
+E@Rodagro MINGW64 /c
+$ ls // lista todas as pastas 
+
+'$Recycle.Bin'/                  pagefile.sys
+'Arquivos de Programas'@         PerfLogs/
+'Arquivos de Programas RFB'/    'Program Files'/
+ Arquivos_Curso_ArcGIS/         'Program Files (x86)'/
+ Assistat/                       ProgramData/
+ BOOTNXT                         projeto-curso-git/
+ Config.Msi/                     Python27/
+'Documents and Settings'@        Recovery/
+ e56e61999dffa2f34be7bc71c2d7/   swapfile.sys
+ hiberfil.sys                   'System Volume Information'/
+ Intel/                          teste/
+'Livro_ArcGIS 9.3_ES'/           Users/
+ OEM/                            Windows/
+
+
+E@Rodagro MINGW64 /c
+$ mkdir teste //cria um diretório "Cria uma pasta nomeada Teste"
+
+E@Rodagro MINGW64 /c
+$ touch exemplo.txt //criar um arquivo nomeado exemplo na unidade C:, porém fora do diretório criado acima "Teste".
+
+E@Rodagro MINGW64 /c
+$ touch teste/exemplo2.txt //criar um arquivo nomeado exemplo2 na unidade C:, porém dentro do diretório criado acima "Teste".
+
+E@Rodagro MINGW64 /c
+$ cd teste // condição para entrar dentro do diretório teste, verificar abaixo. 
+
+E@Rodagro MINGW64 /c/teste 
+$ pwd		// condição para ir para dentro do diretório teste
+/c/teste  
+
+
+"Pronto seu arquivo está criado" 
